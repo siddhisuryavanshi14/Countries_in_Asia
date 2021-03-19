@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/top_radius"
+        android:backgroundTint="?attr/colorPrimary"
+        android:weightSum="5">
+
+        <ImageView
+            android:id="@+id/flag"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/india"
+            android:contentDescription="@string/india" />
+
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:textSize="17sp"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/bg_border">
+
+        <TextView
+            android:id="@+id/capital"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/capital"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/capitalName"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="15dp"
+            android:text="@string/null_"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/left_border"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/bg_border">
+
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/region"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/regionName"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="15dp"
+            android:text="@string/null_"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/left_border"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/bg_border">
+
+        <TextView
+            android:id="@+id/subregion"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/subregion"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/subregionName"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="15dp"
+            android:text="@string/null_"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/left_border"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/bg_border">
+
+        <TextView
+            android:id="@+id/population"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/population"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/populationCount"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="15dp"
+            android:text="@string/null_"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/left_border"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/bg_border">
+
+        <TextView
+            android:id="@+id/borders"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/borders"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_gravity="center_vertical"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/bordersName"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="15dp"
+            android:text="@string/null_"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/bg_border"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4"
+        android:background="@drawable/bg_border">
+
+        <TextView
+            android:id="@+id/languages"
+            android:layout_width="0dp"
+            android:layout_weight="1.5"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="@string/languages"
+            android:textColor="#000"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/languagesName"
+            android:layout_width="0dp"
+            android:layout_weight="2.5"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="15dp"
+            android:text="@string/null_"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:background="@drawable/left_border"
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
